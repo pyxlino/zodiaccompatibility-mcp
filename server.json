@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "org.zodiaccompatibility/zodiac-compatibility",
+  "title": "Zodiac Compatibility",
+  "description": "Zodiac sign matches, Sun, Moon, Venus and rising signs, birth charts and daily horoscopes.",
+  "version": "1.0.1",
+  "websiteUrl": "https://zodiaccompatibility.org",
+  "repository": {
+    "url": "https://github.com/pyxlino/zodiaccompatibility-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://zodiaccompatibility.org/mcp/icons/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://zodiaccompatibility.org/mcp/icons/icon-256.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
+      ]
+    },
+    {
+      "src": "https://zodiaccompatibility.org/mcp/icons/icon-128.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "128x128"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zodiaccompatibility.org/api/mcp"
+    }
+  ]
+}
